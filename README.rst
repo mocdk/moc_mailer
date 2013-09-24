@@ -10,8 +10,8 @@ Make sure you have the moc_message_queue installed and that the worker is runnin
 Examples
 --------
 
-In you code, instead of sending a simple mail (using phps mail), publish a message in the message queue that will ship
-you email.
+In you code, instead of sending a simple mail (using phps mail method), publish a message in the message queue that will
+ship you email.
 
 .. code-block:: php
 
@@ -38,7 +38,7 @@ Now watch the queue work, and the dev log (if configured).
 Testing
 -------
 
-To test the extension, a simple extbase command for seing simple mails and swiftmailer based mails are provieded.
+To test the extension, a simple extbase command for sending simple mails and swiftmailer based mails are provided.
 
 Use like this
 
