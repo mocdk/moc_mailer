@@ -5,8 +5,7 @@ use MOC\MocMessageQueue\Message\AbstractMessage;
 use MOC\MocMessageQueue\Message\MessageInterface;
 
 /**
- * Message for sending an e-mail using the TYPO3 builtin swift mailer.
- *
+ * Message for sending an e-mail using the TYPO3 built-in swift mailer.
  *
  * @package MOC\MocMailer\Message
  */

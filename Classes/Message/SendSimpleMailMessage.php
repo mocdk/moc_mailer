@@ -5,7 +5,7 @@ use MOC\MocMessageQueue\Message\AbstractMessage;
 use MOC\MocMessageQueue\Message\MessageInterface;
 
 /**
- * Message for sending a simple e-mail message. The mail can only caing a recipient, a sender a message and a subject.
+ * Message for sending a simple e-mail message. The mail can only contain a recipient, a sender, a message and a subject.
  *
  * If you require additional headers, more recipients, attached files etc, use the SendSwiftMailerMessage instead.
  *
