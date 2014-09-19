@@ -28,8 +28,6 @@ class MessageQueue {
 			$message->swiftMailerObject->send();
 			return;
 		}
-
-		throw new \Exception(sprintf('Given message object of type "%s" was not supported', get_class($message)));
 	}
 
 }

@@ -11,10 +11,10 @@
 
 $EM_CONF[$_EXTKEY] = array(
 	'title' => 'MOC Asynchronous mailer',
-	'description' => 'Provides an asynchronous mailer daemmon for shipping mails',
+	'description' => 'Provides an asynchronous mailer daemon for shipping mails',
 	'category' => '',
 	'shy' => 0,
-	'version' => '1.0',
+	'version' => '1.0.0',
 	'dependencies' => '',
 	'conflicts' => '',
 	'priority' => '',
@@ -31,9 +31,9 @@ $EM_CONF[$_EXTKEY] = array(
 	'author_company' => 'MOC A/S',
 	'constraints' => array(
 		'depends' => array(
-			'typo3' => '6.0',
-			'moc_message_queue' => '1.0',
-			'extbase' => '6.0'
+			'typo3' => '6.0.0-6.1.99',
+			'moc_message_queue' => '1.0.1',
+			'extbase' => '6.0.0'
 		),
 		'conflicts' => array(
 		),
